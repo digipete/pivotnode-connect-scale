@@ -12,15 +12,15 @@
     --background: 0 0% 100%;
     --foreground: 240 10% 15%;
     
-    /* Primary - Sophisticated charcoal */
-    --primary: 240 8% 22%;
-    --primary-foreground: 0 0% 98%;
-    --primary-hover: 240 8% 18%;
+    /* Primary - Sophisticated charcoal (ensuring override) */
+    --primary: 240 8% 22% !important;
+    --primary-foreground: 0 0% 98% !important;
+    --primary-hover: 240 8% 18% !important;
     
-    /* Accent - Warm professional orange */
-    --accent: 25 95% 53%;
-    --accent-foreground: 0 0% 98%;
-    --accent-hover: 25 95% 48%;
+    /* Accent - Warm professional orange (ensuring override) */
+    --accent: 25 95% 53% !important;
+    --accent-foreground: 0 0% 98% !important;
+    --accent-hover: 25 95% 48% !important;
     
     /* Secondary - Soft neutrals */
     --secondary: 240 5% 96%;
@@ -37,7 +37,7 @@
     /* Borders and inputs */
     --border: 240 6% 90%;
     --input: 240 6% 90%;
-    --ring: 25 95% 53%;
+    --ring: 25 95% 53% !important;
     
     /* Destructive */
     --destructive: 0 72% 51%;
@@ -80,14 +80,14 @@
     --card-foreground: 210 40% 98%;
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 240 8% 22% !important;
+    --primary-foreground: 0 0% 98% !important;
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 25 95% 53% !important;
+    --accent-foreground: 0 0% 98% !important;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
     --border: 217.2 32.6% 17.5%;
