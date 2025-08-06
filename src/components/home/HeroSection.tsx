@@ -1,19 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroImage from "@/assets/hero-consultancy.jpg";
 
 const HeroSection = () => {
+  console.log("HeroSection rendering");
+  
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div className="absolute inset-0">
-        <img
-          src={heroImage}
-          alt="PivotNode consultancy team"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/75 to-accent/85" />
-      </div>
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-r from-primary to-accent">
+      {/* Background Gradient */}
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/75 to-accent/85" />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center text-white">
