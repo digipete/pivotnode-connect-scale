@@ -29,9 +29,9 @@ const CTASection = () => {
             </Link>
             
             <Button 
-              variant="outline" 
+              variant="secondary" 
               size="lg" 
-              className="text-lg px-8 py-4 h-auto border-2 border-white text-white hover:bg-white hover:text-primary transition-all duration-300"
+              className="text-lg px-8 py-4 h-auto bg-white/20 backdrop-blur-sm border-2 border-white/50 text-white hover:bg-white/30 hover:border-white/70 transition-all duration-300"
             >
               View Case Studies
               <ArrowRight className="ml-2 h-5 w-5" />
