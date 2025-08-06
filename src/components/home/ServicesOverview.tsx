@@ -76,7 +76,11 @@ const ServicesOverview = () => {
         {/* CTA */}
         <div className="text-center">
           <Link to="/services">
-            <Button variant="professional" size="lg" className="text-lg px-8 py-4 h-auto">
+            <Button 
+              variant="default" 
+              size="lg" 
+              className="text-lg px-8 py-4 h-auto bg-gradient-to-r from-primary to-accent hover:from-primary-hover hover:to-accent-hover text-white shadow-lg transition-all duration-300"
+            >
               Explore All Services
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
