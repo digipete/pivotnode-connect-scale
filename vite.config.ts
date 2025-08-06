@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/", // Update this to your repo name if deploying to GitHub Pages subdirectory
+  base: process.env.NODE_ENV === 'production' ? '/pivotnode-connect-scale/' : '/',
   server: {
     host: "::",
     port: 8080,
