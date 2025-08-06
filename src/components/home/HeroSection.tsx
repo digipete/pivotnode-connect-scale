@@ -5,16 +5,16 @@ const HeroSection = () => {
   console.log("HeroSection rendering");
   
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-r from-primary to-accent">
-      {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/75 to-accent/85" />
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-primary">
+      {/* Background Overlay */}
+      <div className="absolute inset-0 bg-primary" />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center text-white">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Your{" "}
-            <span className="text-gradient bg-gradient-to-r from-white to-accent-foreground bg-clip-text text-transparent">
+            <span className="text-accent">
               pivot point
             </span>{" "}
             for change
