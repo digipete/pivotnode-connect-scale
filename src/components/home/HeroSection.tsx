@@ -28,9 +28,9 @@ const HeroSection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
-              variant="hero" 
+              variant="default" 
               size="lg" 
-              className="text-lg px-8 py-4 h-auto bg-white text-primary hover:bg-white/90"
+              className="text-lg px-8 py-4 h-auto bg-white text-primary hover:bg-white/95 hover:text-primary shadow-lg"
             >
               Start Your Transformation
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -39,7 +39,7 @@ const HeroSection = () => {
             <Button 
               variant="outline" 
               size="lg" 
-              className="text-lg px-8 py-4 h-auto border-white/30 text-white hover:bg-white/10 hover:text-white"
+              className="text-lg px-8 py-4 h-auto border-2 border-white text-white hover:bg-white hover:text-primary transition-all duration-300"
             >
               Explore Services
             </Button>
@@ -47,13 +47,21 @@ const HeroSection = () => {
 
           {/* Trust indicators */}
           <div className="mt-12 text-center">
-            <p className="text-white/70 text-sm mb-4">Trusted by innovative companies worldwide</p>
-            <div className="flex items-center justify-center space-x-8 opacity-60">
-              {/* Placeholder for client logos */}
-              <div className="h-8 w-24 bg-white/20 rounded"></div>
-              <div className="h-8 w-24 bg-white/20 rounded"></div>
-              <div className="h-8 w-24 bg-white/20 rounded"></div>
-              <div className="h-8 w-24 bg-white/20 rounded"></div>
+            <p className="text-white/80 text-sm mb-6 font-medium">Trusted by innovative companies worldwide</p>
+            <div className="flex items-center justify-center space-x-8 flex-wrap gap-4">
+              {/* Enhanced client logo placeholders */}
+              <div className="h-10 w-28 bg-white/30 rounded-lg flex items-center justify-center">
+                <span className="text-white/60 text-xs font-semibold">CLIENT 1</span>
+              </div>
+              <div className="h-10 w-28 bg-white/30 rounded-lg flex items-center justify-center">
+                <span className="text-white/60 text-xs font-semibold">CLIENT 2</span>
+              </div>
+              <div className="h-10 w-28 bg-white/30 rounded-lg flex items-center justify-center">
+                <span className="text-white/60 text-xs font-semibold">CLIENT 3</span>
+              </div>
+              <div className="h-10 w-28 bg-white/30 rounded-lg flex items-center justify-center">
+                <span className="text-white/60 text-xs font-semibold">CLIENT 4</span>
+              </div>
             </div>
           </div>
         </div>

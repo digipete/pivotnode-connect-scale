@@ -19,9 +19,9 @@ const CTASection = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to="/contact">
               <Button 
-                variant="professional" 
+                variant="default" 
                 size="lg" 
-                className="text-lg px-8 py-4 h-auto bg-white text-primary hover:bg-white/90"
+                className="text-lg px-8 py-4 h-auto bg-white text-primary hover:bg-white/95 hover:text-primary shadow-lg"
               >
                 <Calendar className="mr-2 h-5 w-5" />
                 Book a Discovery Call
@@ -31,7 +31,7 @@ const CTASection = () => {
             <Button 
               variant="outline" 
               size="lg" 
-              className="text-lg px-8 py-4 h-auto border-white/30 text-white hover:bg-white/10 hover:text-white"
+              className="text-lg px-8 py-4 h-auto border-2 border-white text-white hover:bg-white hover:text-primary transition-all duration-300"
             >
               View Case Studies
               <ArrowRight className="ml-2 h-5 w-5" />
