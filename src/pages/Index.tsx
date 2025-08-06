@@ -6,22 +6,16 @@ import TestimonialsSection from "@/components/home/TestimonialsSection";
 import CTASection from "@/components/home/CTASection";
 
 const Index = () => {
-  console.log("Index component rendering");
   return (
     <div className="min-h-screen bg-background">
-      <div className="p-8">
-        <h1 className="text-4xl font-bold text-primary">PivotNode Test</h1>
-        <p className="text-muted-foreground">If you can see this, React is working!</p>
-      </div>
-      {/* Temporarily commenting out other components */}
-      {/* <Header />
+      <Header />
       <main>
         <HeroSection />
         <ServicesOverview />
         <TestimonialsSection />
         <CTASection />
       </main>
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };
