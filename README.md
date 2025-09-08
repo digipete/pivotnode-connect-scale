@@ -2,7 +2,7 @@
 
 A modern, responsive React application built for professional consultancy services. Features a sophisticated design system with gradient backgrounds, interactive components, and optimized user experience.
 
-## Project info
+## Project info for rels
 
 **URL**: https://lovable.dev/projects/c20ea8a4-0911-4290-a957-dde3c0f96214
 
