@@ -63,10 +63,12 @@ const ServicesOverview = () => {
                     {service.highlight}
                   </p>
                   
-                  <Button variant="ghost" className="p-0 h-auto text-primary hover:text-accent group">
-                    Learn more
-                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                  </Button>
+                  <Link to="/services">
+                    <Button variant="ghost" className="p-0 h-auto text-primary hover:text-accent group">
+                      Learn more
+                      <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </Link>
                 </CardContent>
               </Card>
             );
