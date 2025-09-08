@@ -12,7 +12,7 @@ const Services = () => {
       icon: Users,
       title: "Embedded Teams",
       subtitle: "End-to-end delivery teams that hit the ground running",
-      description: "Get a complete, cross-functional team that integrates with your organization from day one. From discovery through to launch and iteration, our embedded teams deliver at pace while transferring knowledge to your internal team.",
+      description: "Get a complete, cross-functional team that integrates with your organisation from day one. From discovery through to launch and iteration, our embedded teams deliver at pace while transferring knowledge to your internal team.",
       ideal: "Ideal for projects where delivery pace and quality matter",
       includes: [
         "Product discovery and strategy",
@@ -20,7 +20,7 @@ const Services = () => {
         "Design and user experience",
         "Quality assurance and testing",
         "DevOps and infrastructure",
-        "Ongoing iteration and optimization"
+        "Ongoing iteration and optimisation"
       ],
       engagement: "3-12 months",
       teamSize: "4-8 people"
@@ -46,15 +46,15 @@ const Services = () => {
       icon: Target,
       title: "Advisory & Enablement",
       subtitle: "Strategic guidance that builds lasting capability",
-      description: "We help shape your technology roadmap, modernize your ways of working, and build internal capability that creates lasting competitive advantage.",
+      description: "We help shape your technology roadmap, modernise your ways of working, and build internal capability that creates lasting competitive advantage.",
       ideal: "Designed for leaders who want more than just bums on seats",
       includes: [
         "Technology strategy and roadmapping",
-        "Engineering practices optimization",
+        "Engineering practices optimssation",
         "Team structure and scaling guidance",
         "Process improvement and automation",
         "Technical training and mentoring",
-        "Organizational transformation support"
+        "Organisational transformation support"
       ],
       engagement: "2-6 months",
       teamSize: "1-2 advisors"
@@ -81,7 +81,7 @@ const Services = () => {
               <span className="text-gradient"> exactly where you need it</span>
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Whether you need a complete delivery team, specialized expertise, or strategic guidance, 
+              Whether you need a complete delivery team, specialised expertise, or strategic guidance, 
               we adapt to your unique challenges and goals.
             </p>
           </div>
