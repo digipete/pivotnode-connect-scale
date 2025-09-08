@@ -48,9 +48,9 @@ const HeroSection = () => {
           {/* Trust indicators */}
           <div className="mt-12 text-center">
             <p className="text-white/80 text-sm mb-6 font-medium">Trusted by innovative companies worldwide</p>
-            <div className="flex items-center justify-center space-x-8 flex-wrap gap-4">
+             {/* <div className="flex items-center justify-center space-x-8 flex-wrap gap-4"> */}
               {/* Enhanced client logo placeholders */}
-              <div className="h-10 w-28 bg-white/30 rounded-lg flex items-center justify-center">
+               {/*<div className="h-10 w-28 bg-white/30 rounded-lg flex items-center justify-center">
                 <span className="text-white/60 text-xs font-semibold">CLIENT 1</span>
               </div>
               <div className="h-10 w-28 bg-white/30 rounded-lg flex items-center justify-center">
@@ -62,7 +62,7 @@ const HeroSection = () => {
               <div className="h-10 w-28 bg-white/30 rounded-lg flex items-center justify-center">
                 <span className="text-white/60 text-xs font-semibold">CLIENT 4</span>
               </div>
-            </div>
+            </div>  */} 
           </div>
         </div>
       </div>
