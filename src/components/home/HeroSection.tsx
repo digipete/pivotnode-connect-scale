@@ -36,7 +36,6 @@ const HeroSection = () => {
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
 
-            <Link to="/services">
               <Button 
                 variant="secondary" 
                 size="lg" 
@@ -44,7 +43,6 @@ const HeroSection = () => {
               >
               Explore Services
               </Button>
-            </Link>
           </div>
 
           {/* Trust indicators */}
