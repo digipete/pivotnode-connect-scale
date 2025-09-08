@@ -16,7 +16,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename={import.meta.env.PROD ? "/pivotnode-connect-scale" : "/"}>
+      <BrowserRouter basename={import.meta.env.PROD ? "/pivotnode-connect-scale/" : "/"}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
